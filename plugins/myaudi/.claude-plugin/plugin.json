@@ -1,0 +1,10 @@
+{
+  "name": "myaudi",
+  "version": "0.1.0",
+  "description": "MCP server for the myAudi connected-car service: read battery, fuel, range and lock status, start or stop climatisation and charging from the chat",
+  "author": {
+    "name": "jak144"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["audi", "myaudi", "car", "ev", "mcp"]
+}

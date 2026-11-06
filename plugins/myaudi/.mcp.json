@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "myaudi": {
+      "command": "uv",
+      "args": ["run", "--quiet", "--directory", "${CLAUDE_PLUGIN_ROOT}", "myaudi-mcp"],
+      "env": {
+        "MYAUDI_USERNAME": "${MYAUDI_USERNAME:-}",
+        "MYAUDI_PASSWORD": "${MYAUDI_PASSWORD:-}",
+        "MYAUDI_VEHICLE": "${MYAUDI_VEHICLE:-}"
+      }
+    }
+  }
+}

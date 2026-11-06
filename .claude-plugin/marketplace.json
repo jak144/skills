@@ -68,6 +68,11 @@
       "skills": [
         "./skills/discernment-nudge"
       ]
+    },
+    {
+      "name": "myaudi",
+      "description": "MCP server for the myAudi connected-car service: battery, fuel, range and lock status, plus remote climatisation and charging from the chat",
+      "source": "./plugins/myaudi"
     }
   ]
 }
